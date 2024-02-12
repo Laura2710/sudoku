@@ -1,2 +1,2 @@
-import SudokuUI from "./js/SudokuUi.js";
+import SudokuUI from "./SudokuUi.js";
 new SudokuUI('sudoku-grid');
