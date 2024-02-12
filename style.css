@@ -1,0 +1,60 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+#sudoku-grid {
+    margin: 1rem auto;
+    font-size: 2rem;
+}
+
+.row,
+.col {
+    border: 1px solid #ccc;
+}
+
+.col {
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    margin: 1px;
+
+}
+
+.col[data-row="0"] {
+    /* Vos styles ici */
+    border-top: 2px solid black;
+    /* Exemple : ajouter une bordure supérieure noire épaisse */
+}
+
+.col[data-row="8"] {
+    /* Vos styles ici */
+    border-bottom: 2px solid black;
+    /* Exemple : ajouter une bordure supérieure noire épaisse */
+}
+
+.col[data-col="0"] {
+    /* Vos styles ici */
+    border-left: 2px solid black;
+    /* Exemple : ajouter une bordure supérieure noire épaisse */
+}
+
+.col[data-col="8"] {
+    /* Vos styles ici */
+    border-right: 2px solid black;
+    /* Exemple : ajouter une bordure supérieure noire épaisse */
+}
+
+.border-right {
+    border-right: 2px solid black;
+}
+
+.border-bottom {
+    border-bottom: 2px solid black;
+}
